@@ -1,0 +1,354 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+.textJustifyText {
+  width: 653px;
+  height: 88px;
+  /* left: 393px; */
+  /* top: 249px; */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73.2308px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mainWrapper {
+  /* position: absolute; */
+  padding: 30px 0;
+  width: 406px;
+  height: 64px;
+  margin: 10px auto;
+  /* left: 517px;
+  top: 160px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42.47px;
+  line-height: 63.71px;
+  text-align: center;
+  color: #ffd300;
+}
+
+.textJustification {
+  /* position: absolute; */
+  width: 905px;
+  height: 34px;
+  /* left: 268px;
+  top: 374px; */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.99px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.8;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.btnSubmit {
+  position: relative;
+  width: 35.6px;
+  height: 37px;
+  left: -47px;
+  top: 3px;
+  border-radius: 26.2012px;
+  background: #03aa77;
+  border: none;
+  outline: none;
+}
+
+.inputStyle {
+  /* position: absolute; */
+  width: 414px;
+  height: 43.15px;
+  /* left: 40px;
+  top: 16px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.9945px;
+  line-height: 39px;
+  color: #57656c;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.inputStyle::placeholder {
+  text-align: center;
+  color: #57656c;
+  opacity: 0.5;
+}
+
+.inputContainer {
+  position: relative;
+  width: 535px;
+  height: 76.02px;
+  margin: 10px auto;
+  background: #ffffff;
+  box-shadow: 0px 2.95225px 88.5675px rgba(142, 131, 113, 0.15);
+  border-radius: 38.0102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer {
+  /* position: absolute; */
+  width: 905px;
+  height: 440.06px;
+  /* left: 268px;
+  top: 669.97px; */
+  background: #ffffff;
+  box-shadow: 0px 9.92201px 39.688px rgba(100, 100, 100, 0.1);
+  border-radius: 37px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+
+.cardContainericon {
+  /* position: absolute; */
+  width: 43px;
+  height: 42px;
+  left: -0px;
+  /* top: 0%;
+  bottom: 0%; */
+}
+
+.cardContainericon1 {
+  position: absolute;
+  width: 3.97px;
+  height: 3.97px;
+  left: 1107.95px;
+  top: 720.15px;
+  background: #ffffff;
+}
+
+.cardfirstDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  width: 90%;
+  margin: auto;
+  background: #ffffff;
+}
+
+.cardImageIcon {
+  width: 43px;
+  height: 42px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.cardIconContainer {
+  background: #ffffff;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  flex-flow: column;
+  gap: 18px;
+  background-color: #ffffff;
+  width: 90%;
+  margin: 111px auto;
+}
+
+.hadithtitle {
+  background-color: #ffffff;
+  color: #03aa77;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 29.77px;
+  line-height: 44.65px;
+  text-align: center;
+}
+
+.hadith {
+  background-color: #ffffff;
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 38.7px;
+  font-size: 25.9945px;
+  text-align: center;
+}
+
+/* for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .textJustifyText {
+    font-size: 48px;
+    height: auto;
+    line-height: 100%;
+    margin: 10px;
+    padding: 10px 0;
+  }
+
+  .mainWrapper {
+    font-size: 32px;
+    height: auto;
+    line-height: 150%;
+    padding: 20px 0;
+    width: 90%;
+  }
+
+  .textJustification {
+    font-size: 18px;
+    height: auto;
+    line-height: 130%;
+    margin: 20px 10px;
+    width: 90%;
+  }
+
+  .inputStyle {
+    font-size: 20px;
+    height: auto;
+    line-height: 150%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .inputContainer {
+    height: auto;
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  .cardContainer {
+    height: auto;
+    margin: 20px 10px;
+    width: 90%;
+  }
+
+  .hadithtitle {
+    font-size: 24px;
+    line-height: 120%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hadith {
+    font-size: 16px;
+    line-height: 120%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* for screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .textJustifyText {
+    font-size: 60px;
+    height: auto;
+    line-height: 120%;
+    margin: 20px auto;
+    padding: 20px 0;
+    width: 90%;
+  }
+
+  .mainWrapper {
+    font-size: 42px;
+    height: auto;
+    line-height: 63.71px;
+    padding: 30px 0;
+    width: 80%;
+  }
+
+  .textJustification {
+    font-size: 24px;
+    height: auto;
+    line-height: 150%;
+    margin: 40px auto;
+    width: 80%;
+  }
+
+  .inputStyle {
+    font-size: 28px;
+    height: auto;
+    line-height: 150%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .inputContainer {
+    height: auto;
+    margin: 20px auto;
+    width: 80%;
+    border: 2px solid red;
+  }
+
+  .cardContainer {
+    height: auto;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .hadithtitle {
+    font-size: 28px;
+    line-height: 44.65px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hadith {
+    font-size: 20px;
+    line-height: 130%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: auto;
+  }
+  .inputContainer {
+    height: auto;
+    margin: 20px auto;
+    width: 80%;
+    border: 2px solid rgb(29, 58, 222);
+  }
+  .cardContainer {
+    height: auto;
+    margin: 20px auto;
+    width: 80%;
+  }
+  .textJustification {
+    font-size: 24px;
+    height: auto;
+    line-height: 150%;
+    margin: 40px auto;
+    width: 80%;
+  }
+}
